@@ -28,4 +28,4 @@ select sum(valor_liq) from pedido;
 select * from produto;
 
 # Buscando produtos por algums palavra-chave:
-select * from produto where nome like '%USB%';
+select * from produto where nome like '%USB%';departamentos

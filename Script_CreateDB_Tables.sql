@@ -58,3 +58,11 @@ CREATE TABLE item_pedido(
 	CONSTRAINT item_produto FOREIGN KEY (codigo_produto) REFERENCES produto(codigo),
 	CONSTRAINT item_pedido FOREIGN KEY (numero_pedido) REFERENCES pedido(numero)
 );
+
+CREATE TABLE Professor(
+	prof_numero INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	prof_nome VARCHAR(50) NOT NULL,
+	prof_rua VARCHAR(100) NOT NULL,
+	prof_cidade VARCHAR(20) NOT NULL
+);
+
